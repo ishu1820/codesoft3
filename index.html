@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color: rgb(77, 77, 131);
+    color: rgb(231, 143, 143);
+    font-family:'poppins', sans-serif;
+  }
+
+  nav{
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(3, 3, 48);
+  }
+
+  nav ul{
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li a{
+    list-style: none;
+    margin: 0 23px;
+  }
+
+  nav ul li a:hover{
+    color: brown;
+  }
+
+  nav ul li{
+    text-decoration: none;
+    color: white;
+  }
+  .left{
+    font-size: 1.5rem;
+  }
+
+  .firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 90px 0;
+
+  }
+
+  .firstSection > div{
+    width: 30%;
+  }
+
+  .leftSection{
+
+    font-size: 1.6rem;
+  }
+
+  .rightSection img{
+    width: 80%;
+
+  }
+  .purple{
+    color: rgb(28, 1, 18);
+  }
+
+  footer{
+    background-color: rgb(3, 3, 48);
+    height: 60px;
+  }
+  .footer{
+    display: flex;
+    padding: 23px 55px;
+    justify-content: space-around;
+    font-size: 10px;
+   }
+.grey{
+  color: grey;
+}
+ 
+</style>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Ishita's Portfolio</div>
+    <div class="right">
+      <ul>
+        
+        <li><a href="/">ABOUT</a></li>
+        <li><a href="/">SKILLS</a></li>
+        <li><a href="/">PROJECTS</a></li>
+        <li><a href="/">RESUME</a></li>
+        <li><a href="/">CONTACT</a></li>
+      </ul>
+    </div></nav>
+
+  </header>
+
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        Hi, My name is <span class="purple">Ishita Mahajan</span>
+        <div>and I am a Student</div>
+        <div>Pursuing BTech CSE-IOT and CS.</div>
+      </div>
+      <div class="rightSection">
+        <img src="ishu.png" alt="">
+      </div>
+      
+    </section>
+    
+    
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="footer-first">
+        <h2><span class="grey"> Copyright&#169;2023 Ishita Mahajan| All rights reserved</span></h2>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
